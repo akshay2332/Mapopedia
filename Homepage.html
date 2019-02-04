@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Borivali MapoPedia</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="static/css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="Homepage.html">Borivali Mapopedia</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Borivali <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="hangouts.php">Hangouts</a></li>
+                    <li><a href="about.php">About</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Details <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="restaurants.php">Restaurants</a></li>
+                    <li><a href="banks.php">Banks</a></li>
+                    <li><a href="hospitals.php">Hospitals</a></li>
+                    <li><a href="shopping.php">Markets</a></li>
+                  </ul>
+                </li>
+                <li>
+
+    <form 
+class="nav navbar-nav navbar-form navbar-right" action="search.php" method="post">
+            
+<div class="form-group">
+<input type="text" placeholder="Name of the place" class="form-control" name="name">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="What it is?" class="form-control" name="email">
+            </div>
+            <button type="submit" class="btn btn-success">Search</button>
+            
+           <font color="red">User logged in the website</font>
+          </form>
+        </li>
+             <li><a href="begin.html"><button type="submit" class="btn btn-success" >LogOut</button></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="static/images/b1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>So do you think you know Borivali? You will be amazed.</h1>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img src="static/images/b2.jpg"  alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>You will get everything there is to know about Borivali here. Like various places to hang out with your friends.</h1>
+              <p><a class="btn btn-large btn-primary" href="hangouts.php">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="static/images/b3.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Get to know about various tourist attractions in Borivali</h1>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="static/images/h1.png">
+          <h2>Education</h2>
+          <p> See all the information related to schools and colleges in Borivali. </p>
+          <p><a class="btn btn-default" href="edu.html">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="static/images/h2.jpeg">
+          <h2>Map</h2>
+          <p> Check out the detailed map of all the places of interest in Borivali.</p>
+          <p><a class="btn btn-default" href="https://www.google.com/maps/preview#!q=Borivali+West%2C+Mumbai%2C+Maharashtra%2C+India&data=!4m15!2m14!1m13!1s0x3be7b0ce3cd117f7%3A0x515d558b955bf692!3m8!1m3!1d26135!2d72.8452134!3d19.2317719!3m2!1i1366!2i666!4f13.1!4m2!3d19.237233!4d72.8456399">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="static/images/h3.jpg">
+          <h2>Fun Places</h2>
+          <p> Find out where all the places where you can have fun in Borivali </p>
+          <p><a class="btn btn-default" href="hangouts.php">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Details of our project <br><span class="text-muted">Discover More.</span></h2>
+          <p class="lead">We have created a portal called Borivali MapoPedia. It is to enable anyone interested in Borivali to just visit our website and get all the info they need.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="static/images/logo3.png">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <a href="contact.php"> <button type="submit" class="btn btn-success">Contact us</button></a>
+
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/holder.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+  </body>
+</html>
